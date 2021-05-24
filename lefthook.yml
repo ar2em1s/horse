@@ -1,0 +1,7 @@
+# lefthook.yml
+
+pre-commit:
+  parallel: true
+  commands:
+    rubocop:
+      run: rubocop
