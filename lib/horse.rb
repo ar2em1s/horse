@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-class Horse
-  VERSION = '0.1.0'
+require 'lib/horse/version'
 
+class Horse
   UPPER_LINE_CHAR = '-'
   BOTTOM_LINE_CHAR = '='
   TALK_LINE_CHAR = '/'

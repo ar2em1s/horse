@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'lib/horse'
+require_relative 'lib/horse/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'horse'
@@ -26,6 +26,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'lefthook', '~> 0.7.2'
   spec.add_development_dependency 'pry', '~> 0.14.0'
+  spec.add_development_dependency 'rake', '~> 12.0'
   spec.add_development_dependency 'rubocop', '~> 1.14.0'
   spec.add_development_dependency 'rubocop-performance', '~> 1.10.2'
   spec.add_development_dependency 'rubocop-rspec', '~> 2.2.0'
